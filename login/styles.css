@@ -1,0 +1,19 @@
+body {
+  background: linear-gradient(#2193b0, #6dd5ed);
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center the form horizontally */
+  justify-content: center; /* Center the form vertically */
+  height: 100vh; /* Set the body height to 100% of the viewport */
+}
+
+.card {
+  width: 40%;
+  max-width: 400px; /* Set a maximum width to prevent it from becoming too wide */
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: 80%; /* Adjust the width for smaller screens */
+  }
+}
